@@ -2,8 +2,11 @@ import React from 'react';
 
 const Vision = () => {
     return (
-        <section id="vision" className="section" style={{ backgroundColor: 'white' }}>
+        <section id="vision" className="section" style={{ backgroundColor: 'white', padding: '4rem 0', minHeight: 'auto' }}>
             <div className="container">
+                <div className="section-header">
+                    <h3 className="title">About</h3>
+                </div>
                 <div style={{ padding: '2rem', border: '1px solid #e5e7eb', borderRadius: '1rem', boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)' }}>
                     <h3 style={{ fontSize: '1.5rem', fontWeight: 'bold', marginBottom: '1.5rem', color: '#1e293b' }}>🚀 루나팩토리?</h3>
                     <p style={{ color: '#4b5563', marginBottom: '2rem', lineHeight: '1.7' }}>

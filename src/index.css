@@ -1,13 +1,25 @@
 :root {
-  --primary-color: #2563eb; /* Blue 600 */
-  --primary-hover: #1d4ed8; /* Blue 700 */
-  --bg-color: #f9fafb; /* Gray 50 */
-  --text-color: #1f2937; /* Gray 800 */
-  --text-light: #4b5563; /* Gray 600 */
-  --header-bg: #0f172a; /* Slate 900 */
+  --primary-color: #2563eb;
+  /* Blue 600 */
+  --primary-hover: #1d4ed8;
+  /* Blue 700 */
+  --bg-color: #f9fafb;
+  /* Gray 50 */
+  --text-color: #1f2937;
+  /* Gray 800 */
+  --text-light: #4b5563;
+  /* Gray 600 */
+  --header-bg: #0f172a;
+  /* Slate 900 */
   --white: #ffffff;
   font-family: 'Pretendard', system-ui, -apple-system, sans-serif;
   line-height: 1.6;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
