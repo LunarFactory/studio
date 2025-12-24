@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Vision from './components/Vision';
 import Projects from './components/Projects';
 import Team from './components/Team';
+import Partners from './components/Partners';
 import Footer from './components/Footer';
 import './App.css';
 
@@ -16,6 +17,7 @@ function App() {
         <Vision />
         <Projects />
         <Team />
+        <Partners />
       </main>
       <Footer />
     </div>

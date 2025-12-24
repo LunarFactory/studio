@@ -3,43 +3,39 @@ import React from 'react';
 const Projects = () => {
     const projects = [
         {
-            id: 1,
+            id: 'lunar-minecraft',
             title: '루나팩토리 마인크래프트 서버',
             description: '정기적으로 테마를 변경하는 마인크래프트 서버입니다.',
             tags: ['Minecraft', 'Modded'],
-            link: '#', // 나중에 실제 링크로 변경
-            image: `${import.meta.env.BASE_URL}images/default_project.svg` // 나중에 실제 이미지로 변경
+            link: '#'
         },
         {
-            id: 2,
+            id: 'alice-manor',
             title: '앨리스의 대저택',
             description: '기억을 되찾기 위해 미궁화된 저택을 탐험하는 앨리스의 이야기입니다.',
             tags: ['Game', 'Rogue-Lite', 'Godot'],
-            link: '#',
-            image: `${import.meta.env.BASE_URL}images/default_project.svg`
+            link: '#'
         },
         {
-            id: 3,
+            id: 'mirror-curse',
             title: '거울에 떨어진 저주 세 방울',
             description: '평행세계의 자신과 세계의 거대한 법칙을 파헤치는 소설입니다.',
             tags: ['Novel'],
-            link: '#',
-            image: `${import.meta.env.BASE_URL}images/default_project.svg`
+            link: '#'
         },
         {
-            id: 4,
+            id: 'paradise-nowhere',
             title: '파라다이스 인 노웨어',
             description: '디스토피아적 도시에서 살아남기 위한 사람들의 이야기입니다.',
             tags: ['Game', 'Deck-Building'],
-            link: '#',
-            image: `${import.meta.env.BASE_URL}images/default_project.svg`
+            link: '#'
         }
         // 여기에 새로운 프로젝트를 추가하세요
     ];
 
     const onErrorImg = (e) => {
-        // e.target.src = 'https://via.placeholder.com/400x250?text=No+Image'; // Fallback
-        e.target.style.backgroundColor = '#e5e7eb'; // Gray background if no image
+        e.target.onerror = null; // Prevent infinite loop
+        e.target.src = `${import.meta.env.BASE_URL}images/default_project.svg`;
     };
 
     return (
@@ -84,7 +80,7 @@ const Projects = () => {
                                 position: 'relative'
                             }}>
                                 <img
-                                    src={project.image}
+                                    src={`${import.meta.env.BASE_URL}images/${project.id}.png`}
                                     alt={project.title}
                                     onError={onErrorImg}
                                     style={{
