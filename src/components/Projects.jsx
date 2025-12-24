@@ -8,7 +8,7 @@ const Projects = () => {
             description: '정기적으로 테마를 변경하는 마인크래프트 서버입니다.',
             tags: ['Minecraft', 'Modded'],
             link: '#', // 나중에 실제 링크로 변경
-            image: '/images/default_project.svg' // 나중에 실제 이미지로 변경
+            image: `${import.meta.env.BASE_URL}images/default_project.svg` // 나중에 실제 이미지로 변경
         },
         {
             id: 2,
@@ -16,7 +16,7 @@ const Projects = () => {
             description: '기억을 되찾기 위해 미궁화된 저택을 탐험하는 앨리스의 이야기입니다.',
             tags: ['Game', 'Rogue-Lite', 'Godot'],
             link: '#',
-            image: '/images/default_project.svg'
+            image: `${import.meta.env.BASE_URL}images/default_project.svg`
         },
         {
             id: 3,
@@ -24,7 +24,7 @@ const Projects = () => {
             description: '평행세계의 자신과 세계의 거대한 법칙을 파헤치는 소설입니다.',
             tags: ['Novel'],
             link: '#',
-            image: '/images/default_project.svg'
+            image: `${import.meta.env.BASE_URL}images/default_project.svg`
         },
         {
             id: 4,
@@ -32,7 +32,7 @@ const Projects = () => {
             description: '디스토피아적 도시에서 살아남기 위한 사람들의 이야기입니다.',
             tags: ['Game', 'Deck-Building'],
             link: '#',
-            image: '/images/default_project.svg'
+            image: `${import.meta.env.BASE_URL}images/default_project.svg`
         }
         // 여기에 새로운 프로젝트를 추가하세요
     ];

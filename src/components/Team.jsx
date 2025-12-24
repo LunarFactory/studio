@@ -10,7 +10,7 @@ const Team = () => {
     ];
 
     const onErrorImg = (e) => {
-        e.target.src = '/images/default_profile.svg';
+        e.target.src = `${import.meta.env.BASE_URL}images/default_profile.svg`;
     };
 
     return (
@@ -45,7 +45,7 @@ const Team = () => {
                             }}
                         >
                             <img
-                                src={`/images/${member.id}.png`}
+                                src={`${import.meta.env.BASE_URL}images/${member.id}.png`}
                                 onError={onErrorImg}
                                 alt={member.name}
                                 style={{
