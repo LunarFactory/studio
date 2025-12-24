@@ -18,7 +18,7 @@ const Team = () => {
         <section id="team" className="section" style={{ backgroundColor: '#f9fafb' }}>
             <div className="container">
                 <div className="section-header">
-                    <h3 className="title">함께하는 사람들</h3>
+                    <h3 className="title">Teammates</h3>
                 </div>
 
                 <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))', gap: '2rem' }}>

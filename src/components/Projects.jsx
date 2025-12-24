@@ -42,7 +42,7 @@ const Projects = () => {
         <section id="projects" className="section" style={{ backgroundColor: 'white' }}>
             <div className="container">
                 <div className="section-header">
-                    <h3 className="title">Project</h3>
+                    <h3 className="title">Projects</h3>
                 </div>
 
                 <div className="projects-grid">
