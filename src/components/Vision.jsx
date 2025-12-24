@@ -5,10 +5,10 @@ const Vision = () => {
         <section id="vision" className="section" style={{ backgroundColor: 'white' }}>
             <div className="container">
                 <div style={{ padding: '2rem', border: '1px solid #e5e7eb', borderRadius: '1rem', boxShadow: '0 1px 2px 0 rgba(0, 0, 0, 0.05)' }}>
-                    <h3 style={{ fontSize: '1.5rem', fontWeight: 'bold', marginBottom: '1.5rem', color: '#1e293b' }}>🚀 프로젝트 목표 (Mission)</h3>
+                    <h3 style={{ fontSize: '1.5rem', fontWeight: 'bold', marginBottom: '1.5rem', color: '#1e293b' }}>🚀 루나팩토리?</h3>
                     <p style={{ color: '#4b5563', marginBottom: '2rem', lineHeight: '1.7' }}>
-                        여기에 프로젝트가 해결하고자 하는 문제와 핵심 목표를 적어주세요.
-                        사용자들의 불편함을 해소하고, 더 직관적이고 효율적인 경험을 제공하는 것이 우리의 주된 미션입니다.
+                        루나팩토리는 다양한 방면에서 프로젝트를 진행하고, 게임을 하며, 유저와 소통하는 그룹입니다.<br />
+
                     </p>
 
                     <h3 style={{ fontSize: '1.5rem', fontWeight: 'bold', marginBottom: '1.5rem', color: '#1e293b' }}>💡 우리의 핵심 가치</h3>

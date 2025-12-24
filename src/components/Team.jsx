@@ -2,8 +2,9 @@ import React from 'react';
 
 const Team = () => {
     const members = [
-        { name: 'PixelVoxel', role: 'Leader', desc: '프로젝트의 방향성을 잡고 일정을 체계적으로 관리합니다.', icon: '👨‍💻' },
-        { name: 'CMTRUY', role: 'Lead Developer', desc: '핵심 기능을 견고하게 구현하고 시스템 아키텍처를 설계합니다.', icon: '💻' }
+        { name: 'PixelVoxel', role: 'Leader', desc: '루나팩토리의 리더입니다. 여러분의 꿈을 응원합니다.', icon: '👨‍💻' },
+        { name: 'CMTRUY', role: 'Lead Developer', desc: '멤버 한 마디', icon: '💻' },
+        { name: 'Flymuhwah2', role: 'Artist', desc: '멤버 한 마디', icon: '💻' }
     ];
 
     return (

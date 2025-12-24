@@ -9,7 +9,7 @@ const Footer = () => {
             padding: '2rem',
             marginTop: 'auto'
         }}>
-            &copy; 2024 LunarFactory. All rights reserved.
+            &copy; 2025 LunarFactory. All rights reserved.
         </footer>
     );
 };
