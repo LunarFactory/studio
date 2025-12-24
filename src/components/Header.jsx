@@ -30,6 +30,7 @@ const Header = () => {
           <li style={{ marginLeft: '20px' }}><a href="#vision" onClick={(e) => scrollToSection(e, 'vision')} className="nav-link" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }}>About</a></li>
           <li style={{ marginLeft: '20px' }}><a href="#projects" onClick={(e) => scrollToSection(e, 'projects')} className="nav-link" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }}>Project</a></li>
           <li style={{ marginLeft: '20px' }}><a href="#team" onClick={(e) => scrollToSection(e, 'team')} className="nav-link" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }}>Team</a></li>
+          <li style={{ marginLeft: '20px' }}><a href="#partners" onClick={(e) => scrollToSection(e, 'partners')} className="nav-link" style={{ color: 'white', textDecoration: 'none', fontWeight: 'bold' }}>Partners</a></li>
         </ul>
       </nav>
     </header>
