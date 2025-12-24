@@ -10,6 +10,7 @@ const Team = () => {
     ];
 
     const onErrorImg = (e) => {
+        e.target.onerror = null; // Prevent infinite loop
         e.target.src = `${import.meta.env.BASE_URL}images/default_profile.svg`;
     };
 
